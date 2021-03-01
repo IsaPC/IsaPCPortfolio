@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+a {
+  text-decoration: none;
+}
+
+/*  NAVBAR */
+nav {
+  background-color: #202020;
+  display: flex;
+  justify-content: space-around;
+  min-height: 10vh;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  align-items: center;
+}
+
+
+.logo {
+  display: flex;
+}
+
+.logo h1 {
+  color:white;
+}
+
+
+
+.nav_links {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.nav_externals {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 10%;
+}
+
+.link_external {
+  padding: 3mm;
+}
+
+
+.hamburger {
+  display: flex;
+}
+
+/* transition color */
+.link {
+  color: #fff;
+}
+
+.link a{
+  color: #fff;
+}
+
+.link a:hover {
+  color:orange;
+}
+
+.hamburger {
+  cursor: pointer;
+  display: none;
+}
+
+.github_logo {
+  cursor: pointer;
+  display: flex;
+  display: block;
+}
+
+.linkedin_logo {
+  cursor: pointer;
+  display: flex;
+  display: block;
+  background-color: white;
+  border-radius: 8%;
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .github_logo {
+    display: none;
+  }
+
+  .nav_links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0px;
+    height: 80vh;
+    align-items: center;
+    width: 100%;
+    top: 10vh;
+    background-color: grey;
+    transform: translate(100%);
+    transition: transform 0.5s ease-in;
+    z-index: 100;
+  }
+
+  .nav_externals {
+    display: none;
+  }
+
+  .active {
+    transform: translateX(0%);
+  }
+}
+
+/* Home */
+.home {
+  display: flex;
+  align-self: start;
+  align-items: center;
+  height: 76vh;
+}
+
+.NameTitle {
+  padding-left: 15%;
+  font-size: 4rem;
+  text-align: left;
+}
+
+.contactText {
+  padding-left: 15%;
+  font-size: 2rem;
+  text-align: left;
+}
+
+@media screen and (max-width: 300px) {
+  .NameTitle {
+    padding-left: 5%;
+    font-size: 2rem;
+    text-align: left;
+  }
+}
+
+
+
+.project-list > div{
+  /* background-color: rgb(206, 111, 111); */
+  padding: 1em;
+  border-radius: 5px;
+  border: 1px solid #0f0f0f;
+}
+
+
+
+
+
+/* Pagination */
+
+.pagination {
+  list-style: none;
+
+  width: 100%;
+  height: 50px;
+}
+
+.page_item {
+  display: inline-block;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.page_button {
+  position: relative;
+  width: 50px;
+  height: 25px;
+  background-color: rgb(48, 48, 48);
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+/* Contact */

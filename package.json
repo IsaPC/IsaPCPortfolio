@@ -1,0 +1,37 @@
+{
+  "name": "isaacfn",
+  "version": "1.0.0",
+  "private": true,
+  "description": "isaacfn",
+  "author": "Isaac Ceff",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.3.11",
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "@pauliescanlon/gatsby-mdx-embed": "0.0.29",
+    "gatsby": "^2.32.8",
+    "gatsby-image": "^2.11.0",
+    "gatsby-plugin-mdx": "^1.10.1",
+    "gatsby-plugin-sharp": "^2.14.3",
+    "gatsby-plugin-styled-components": "^3.10.0",
+    "gatsby-remark-images": "^3.11.1",
+    "gatsby-source-filesystem": "^2.11.1",
+    "gatsby-transformer-remark": "^2.16.1",
+    "gatsby-transformer-sharp": "^2.12.0",
+    "prism-react-renderer": "^1.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-live": "^2.2.3",
+    "styled-components": "^5.2.1"
+  }
+}

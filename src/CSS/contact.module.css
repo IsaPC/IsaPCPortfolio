@@ -1,0 +1,63 @@
+.container{
+  max-width: 800px;
+  height: 600px;
+  background: #fff;
+  margin: 50px auto;
+  box-shadow: 0 0 20px rgba(72,98,85, 0.6);
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+p{
+  text-align: center;
+  letter-spacing: 1px;  
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #080808;
+}
+
+.input,
+.msg .area{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border: 2px solid #e9eaea;
+  font-size: 16px;
+  border-radius: 5px;
+  outline: none;
+  transform: all 0.5s ease;
+}
+
+.login .input{
+  width: 50%;
+  float: left;
+  margin-right: 5%;
+}
+
+.login .input:last-child{
+  margin-right: 0;
+}
+
+.msg .area{
+  height: 200px;
+}
+
+.btn{
+  width: 250px;
+  background: #080808;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 auto;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.input:focus,
+.msg .area:focus{
+  border: 2px solid #080808;
+}
+
